@@ -1,0 +1,154 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    /* overflow-y: scroll; */
+    /* background-color: crimson; */
+}
+
+.child1{
+    flex: 4; 
+    display: flex;
+    background-color:rgba(228, 228, 250, 0.986);
+    justify-content: center;
+
+}
+
+.champ{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+.olx{
+    width: 60px;
+    margin-top: 20px;
+}
+
+.cbeta1{
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+
+    
+    
+
+}
+
+
+.cbeta2{
+    height: 40px;
+    width:350px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+
+.cbeta3{
+    margin-left: 20px;
+}
+
+
+.cbeta4{
+    border-width: 5px;
+    margin-left: 20px;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    border-top-color:rgb(11, 66, 248);
+    border-left-color: rgb(7, 173, 165);
+    border-bottom-color: rgb(255, 251, 0);
+    border-right-color: red;
+    background-color: white;
+    font-size: 20px;
+    
+}
+
+.projet{
+    flex: 70;
+    width: 100%;
+    flex-direction: column;
+    overflow-y: scroll;
+    background-color: crimson;
+
+}
+
+.child2{
+    flex: 1;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+}
+
+.bapb1{
+    flex: 1;
+    text-align: right;
+
+}
+
+.betab1{
+    height: 20px;
+    width: 150px;
+    border-style: hidden;
+    font-weight: bold;
+
+}
+
+.bapb2{
+    flex: 2;
+    text-align: left;
+
+}
+
+.betab2{
+    color: rgba(0, 0, 0, 0.582);
+    font-size: small;
+    margin-left: 10px;
+    
+
+}
+.betab2:hover{
+    color: blue;
+}
+
+.child3{
+    flex: 7;
+    height: 30%;
+}
+
+.child4{
+    flex: 20;
+    background-color:#e3eefaf1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    /* overflow-y: scroll; */
+    
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.part1{
+    flex: 1;
+    text-align: center;
+}
+
+.opo{
+    display: inline-block;
+    padding: 30px;
+    border-color: rgba(0, 0, 0, 0.137);
+    background-color: rgba(255, 250, 240, 0.856);
+    border-radius: 5px;
+    border-style:inset;
+    margin: 5px
+}
+
+.child5{
+    flex: 15;
+    background-color:rgba(199, 199, 250, 0.973);
+}
